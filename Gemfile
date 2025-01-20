@@ -14,4 +14,5 @@ gem 'mini_magick'
 unless Gem.win_platform?
   gem 'image_optim'
   gem 'image_optim_pack'
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
